@@ -6,10 +6,10 @@ from urllib.request import urlopen
 import json
 from array import *
 
-consumer_key = "7anmw74p26JCK8J4DEGjQL0zS"
-consumer_secret = "FsxM3pcmGVBlNBzEhxoinPzWOSscFND9JLt0mpCVos8KO07Vvs"
-access_token = "874027087-Pbdq3O3qapdPZ1VoRDXQ8EfmOgtfTzTaXbPId9Q1"
-access_token_secret = "pInQU0iXUsQ87TWrJtyTCVemKjEEYLwFRMzCzHl8bXGB9"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # Creating the authentication object
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
